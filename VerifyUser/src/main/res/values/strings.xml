@@ -1,0 +1,147 @@
+<resources>
+    <string name="app_name">Verify Your User</string>
+
+    <string-array name="list_scale">
+        <item>Select Scale</item>
+        <item>1x</item>
+        <item>0.5x</item>
+        <item>0.25x</item>
+    </string-array>
+
+    <string name="log_path">/mnt/sdcard/Logs</string>
+    <string name="log_date">dd/MM/yyyy</string>
+    <string name="log_timestamp">E MMM dd hh:mm:ss z yyyy</string>
+
+    <string name="msg_allow_permissions">Please allow all permissions to continue!</string>
+    <string name="select_picture_from_gallery">Click here to select your picture from gallery!</string>
+    <string name="msg_warning_dimension">Provided dimension is greater than original size which may effect picture quality!</string>
+    <string name="msg_select_size">Please select a size to save!</string>
+
+    <string name="action_capture">Capture Image</string>
+    <string name="action_gallery">Pick from Gallery</string>
+
+    <string name="text_org_size">Original Size: </string>
+    <string name="text_op_size">Output Size: </string>
+    <string name="text_custom_size">Custom Size</string>
+    <string name="text_size_def_value">1024 x 1024</string>
+    <string name="text_height">Height</string>
+    <string name="text_x">\tx\t</string>
+    <string name="text_width">Width</string>
+
+    <string name="msg_wait">Please Wait…</string>
+    <string name="msg_success">Process successful!</string>
+    <string name="msg_failed">Process failed due to </string>
+    <string name="msg_warning">Warnings:\n\n</string>
+    <string name="msg_multi_face">- Multiple faces (%d) detected!\n\n</string>
+    <string name="msg_no_face">- No face detected!\n\n</string>
+    <string name="msg_angle_up_down">\n\nRotation angle towards up/down: %f \n(Positive value = Looking upward)</string>
+    <string name="msg_angle_left_right">\n\nRotation angle towards left/right: %f \n(Positive value = Looking right)</string>
+    <string name="msg_angle_clock_anti">\n\nTilted rotation angle: %f \n(Positive value = Rotated counter-clockwise)</string>
+    <string name="msg_face_down">- Face %d is looking downward!\n\n</string>
+    <string name="msg_face_up">- Face %d is looking upward!\n\n</string>
+    <string name="msg_face_left">- Face %d is looking at left!\n\n</string>
+    <string name="msg_face_right">- Face %d is looking at right!\n\n</string>
+    <string name="msg_face_clock">- Face %d is rotated clockwise!\n\n</string>
+    <string name="msg_face_anti">- Face %d is rotated counter-clockwise!\n\n</string>
+    <string name="msg_right_eye_prob">\n\nRight Eye opened probability:\t</string>
+    <string name="msg_left_eye_prob">\n\nLeft Eye opened probability:\t</string>
+    <string name="msg_right_eye_close">- Right Eye of face %d may be closed!\n\n</string>
+    <string name="msg_left_eye_close">- Left Eye of face %d may be closed!\n\n</string>
+    <string name="msg_glass_wearing_maybe">- Face %d may be wearing glass!\n\n</string>
+    <string name="msg_glass_wearing">- Face %d is wearing glass!\n\n</string>
+    <string name="msg_forehead_obstruction">- Forehead of face %d is not clearly visible!\n\n</string>
+    <string name="msg_ear_obstruction_left">- Left ear of face %d may not be clearly visible!\n\n</string>
+    <string name="msg_ear_obstruction_right">- Right ear of face %d may not be clearly visible!\n\n</string>
+    <string name="msg_nose_obstruction">- Nose bottom of face %d may not be clearly visible!\n\n</string>
+    <string name="msg_n_a">N/A</string>
+    <string name="msg_divider">----------------------------------------\n\n</string>
+    <string name="msg_no_camera">Camera not available!</string>
+
+    <string name="text_time_format">yyyyMMdd_HHmmss</string>
+    <string name="text_select_picture">Select Picture</string>
+    <string name="text_mime_type">image/*</string>
+    <string name="text_sharpness">Image Sharpness:  %.2f/</string>
+    <string name="text_result">\n\nProcess Result:\t</string>
+    <string name="text_face_id">Face ID:\t</string>
+    <string name="text_image_ok">Image is not blur!</string>
+    <string name="text_image_blur">Image is %d%% blur!</string>
+
+    <string name="msg_error_loading_cascade">Error loading cascade:\t</string>
+
+    <string name="msg_place_face">Place your face inside the oval</string>
+
+    <string name="msg_say_digits">Say the digits\n%s Loudly!</string>
+    <string name="msg_voice_error">Voice not recognized!\n(Error :\t</string>
+    <string name="msg_voice_error_1">Network operation timed out\nError code: 1)</string>
+    <string name="msg_voice_error_2">Network related error\nError code: 2)</string>
+    <string name="msg_voice_error_3">Audio recording error\nError code: 3)</string>
+    <string name="msg_voice_error_4">Server sends error status\nError code: 4)</string>
+    <string name="msg_voice_error_5">Client side error\nError code: 5)</string>
+    <string name="msg_voice_error_6">No speech input, timed out\nError code: 6)</string>
+    <string name="msg_voice_error_7">No recognition result matched\nError code: 7)</string>
+    <string name="msg_voice_error_8">Recognition Service busy\nError code: 8)</string>
+    <string name="msg_voice_error_9">Insufficient permissions\nError code: 9)</string>
+    <string name="msg_voice_error_10">Too many requests from the same client\nError code: 10)</string>
+    <string name="msg_voice_error_11">Server has been disconnected\nError code: 11)</string>
+    <string name="msg_voice_error_12">Requested language is not available to be used with the current recognizer\nError code: 12)</string>
+    <string name="msg_voice_error_13">Requested language is supported, but not available currently\nError code: 13)</string>
+    <string name="msg_you_said">You said:\t</string>
+    <string name="msg_say_again">Please say the digits again!</string>
+    <string name="msg_recognizer_failed">Failed to initiate Speech verification!\nPlease restart device &amp; try again!</string>
+
+    <string name="msg_touch_circle">Touch the red circle shown in the centre!</string>
+    <string name="msg_back_straight">Place your head back to straight inside the oval properly</string>
+    <string name="msg_move_left_back_straight">Move your head towards your left &amp; back to straight slowly</string>
+    <string name="msg_move_right_back_straight">Move your head towards your right &amp; back to straight slowly</string>
+    <string name="msg_verification_success">Verified successfully!</string>
+    <string name="msg_verification_failed">Video verification failed!</string>
+    <string name="msg_video_save_failed">Video saving failed for </string>
+
+    <string name="text_ok">OK</string>
+    <string name="text_save">Save</string>
+    <string name="text_save_exit">Save &amp; Exit</string>
+    <string name="text_no_save">Exit without Save</string>
+    <string name="text_retry">Retry</string>
+    <string name="text_retry_now">Retry Now</string>
+    <string name="text_exit">Try Later</string>
+    <string name="text_copy">Copy</string>
+    <string name="text_or">OR</string>
+    <string name="text_save_image">Save Image</string>
+
+    <string name="text_haarcascade_frontalface">haarcascade_frontalface_alt2.xml</string>
+    <string name="text_haarcascade_eye">haarcascade_eye.xml</string>
+    <string name="text_sec">0:0</string>
+    <string name="text_secs">0:</string>
+
+    <string name="msg_space_open">Please keep the space above this text opened to detect light intensity</string>
+    <string name="msg_error_wrong_aspect_ratio">Wrong Aspect Ratio provided!</string>
+    <string name="msg_hold_steady">Please hold your phone steady to focus of your document</string>
+    <string name="msg_light_inadequate">Please place your document under proper light!\nLight intensity: %.2f</string>
+    <string name="msg_error_camera_not_found">Camera not available!</string>
+    <string name="msg_error_capture_cancel">User cancelled image capture</string>
+    <string name="msg_error_capture_failed">Sorry! Failed to capture image</string>
+    <string name="msg_error_pick_cancel">User cancelled image selection</string>
+    <string name="msg_error_pick_failed">Sorry! Failed to select image from gallery</string>
+    <string name="msg_capture_saved">"Saved Image: "</string>
+    <string name="msg_gallery_saved">Photo saved successfully as </string>
+    <string name="msg_copy_success">Error copied to clipboard</string>
+    <string name="msg_error_video_failed">Video verification failed!</string>
+    <string name="msg_video_saved">Saved Video: </string>
+
+    <string name="doc_sharpness">Doc_Sharpness</string>
+    <string name="doc_blur">Doc_Blur</string>
+
+    <string name="scan_pan">Scan PAN Card</string>
+    <string name="scan_id">Scan ID Card</string>
+    <string name="scan_passport">Scan Passport</string>
+
+    <string name="selfie_sharpness">Selfie_Sharpness</string>
+    <string name="selfie_blur">Selfie_Blur</string>
+    <string name="face_count">Face_Count</string>
+    <string name="face_angle_up_down">Face_Angle_Up_down</string>
+    <string name="face_angle_left_right">Face_Angle_Left_Right</string>
+    <string name="face_angle_tilted">Face_Angle_Tilted</string>
+    <string name="face_id">Face_ID</string>
+    <string name="face_open_prob_right">Face_Open_Prob_Right</string>
+    <string name="face_open_prob_left">Face_Open_Prob_Left</string>
+</resources>
